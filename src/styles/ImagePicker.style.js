@@ -1,0 +1,128 @@
+// UploadMediaFile.styles.js
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#E6E6FA',
+    paddingBottom: 40,
+  },
+  innerContainer: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 20,
+    backgroundColor: '#E6E6FA',
+    borderRadius: 15,
+    borderWidth: 1,
+    borderColor: '#8A2BE2',
+    padding: 20,
+    margin: 10,
+    elevation: 5,
+  },
+  buttonContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 20,
+    width: '100%',
+    paddingHorizontal: 20,
+  },
+  pickButton: {
+    backgroundColor: '#8A2BE2',
+    borderRadius: 25,
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    shadowColor: '#8A2BE2',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 5,
+    elevation: 6,
+    marginRight: 10,
+  },
+  uploadButton: {
+    backgroundColor: '#026efd',
+    borderRadius: 25,
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    shadowColor: '#026efd',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 5,
+    elevation: 6,
+  },
+  uploadingButton: {
+    backgroundColor: '#555',
+  },
+  pickButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '600',
+    textAlign: 'center',
+  },
+  uploadButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '600',
+    textAlign: 'center',
+  },
+  profileImage: {
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    borderWidth: 2,
+    borderColor: '#8A2BE2',
+    marginTop: 20,
+  },
+  noImageText: {
+    color: '#aaa',
+    fontSize: 16,
+    marginTop: 10,
+  },
+    imageContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 20,
+    position: 'relative',
+    },
+  closeButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  iconButton: {
+    flexDirection: 'column',
+    alignItems: 'center',
+    marginHorizontal: 20,
+  },
+  iconButtonText: {
+    color: '#8A2BE2',
+    fontSize: 12,
+    textAlign: 'center',
+  },
+  modalContainer: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.9)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  closeButton: {
+    position: 'absolute',
+    top: 40,
+    right: 25,
+    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    borderRadius: 20,
+    padding: 5,
+  },
+  modalImage: {
+    width: '85%',
+    height: '60%',
+    resizeMode: 'cover',
+    borderRadius: 15,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.3,
+    shadowRadius: 10,
+  },
+});
+
+export default styles;
